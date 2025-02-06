@@ -21,20 +21,21 @@
          </select>
 
          <label for="age">Age</label>
-         <input type="text" id="age" placeholder="Enter your age" required>
+         <input type="number" id="age" placeholder="Enter your age" required>
 
 
          <label for="height-ft">Height</label>
-         <input type="text" id="height-ft" placeholder="ft" required>
-         <input type="text" id="height-in" placeholder="in" required>
+         <input type="number" id="height-ft" placeholder="ft" required>
+         <input type="number" id="height-in" placeholder="in" required>
 
          <label for="weight">Weight</label>
-         <input type="text" id="weight" placeholder="Enter your weight in KGs" required>
+         <input type="number" id="weight" placeholder="Enter your weight in KGs" required>
 
          <input type="submit" value="Calculate BMI">
         </form>
 
-           <div class="result"></div>
+           <div id="result">
+           </div>
 
     </div>
     <script src="main.js"></script>
